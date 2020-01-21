@@ -1,0 +1,755 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*TEST*/
+
+.homesize {
+    height: 440px;
+}
+
+.aboutbackground {
+    height: 1000px;
+}
+
+.typespacing {
+    padding-top: 50px;
+}
+
+.typespacing2 {
+    margin-top: -40px;
+}
+
+.purple {
+    background-color: #9BB0E4;
+}
+
+.bluecol {
+    background-color: #76BDFF;
+}
+
+.bluecol2 {
+    background-color: #8AC7FF;
+}
+
+.pinkcol {
+    background-color: #F9C8F4;
+}
+
+.yelcol {
+    background-color: #FFDE8A;
+}
+
+.nunitocol {
+    background-color: #68CBDD;
+}
+
+.nunitobeige {
+    background-color: #FFF8E8;
+}
+
+.aboutpaddingtop {
+    padding-top: 200px;
+}
+
+.paratop {
+    margin-top: -120px;
+}
+
+.homedescriptortop {
+    margin-top: -240px;
+}
+
+.black {
+    color: black;
+}
+
+.blackbg {
+    background-color: black;
+}
+
+.starrycol {
+    /*background-color: #FFE34E;*/
+    /*  background-color: #FF86F3;*/
+    background-color: #FCDEF9;
+
+}
+
+.starrybgcol {
+    /*background-color: #FEF1D0;*/
+    /*background-color: #E9EEF9;*/
+    background-color: #FBF8F1;
+}
+
+
+
+/*LINE*/
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+.topline {
+    margin-top: -50px;
+}
+
+
+
+/*HOME*/
+
+.homepaddingmeltop {
+    padding-top: 20px;
+}
+
+.homepaddingmelbottom {
+    padding-bottom: 150px;
+}
+
+
+
+/*HOME ANIMATION*/
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+section div {
+    position: relative;
+    width: 100%;
+    /*background: beige;*/
+    overflow: hidden;
+}
+
+section div h1 {
+    position: absolute;
+    white-space: nowrap;
+    animation: animate 90s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.hometitlemargin {
+    margin-top: -50px;
+}
+
+.hometitlemargin2 {
+    margin-top: -100px;
+}
+
+
+
+/*ACCORDION*/
+
+.accordion {
+    background-color: #F9C8F4;
+    color: black;
+    /*cursor: pointer;*/
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #F9C8F4;
+    text-decoration: none;
+    outline: none;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #F9C8F4;
+    overflow: hidden;
+    text-decoration: none;
+    outline: none;
+}
+
+.accordiontextpadding {
+    padding-top: 10px;
+}
+
+.accordiondescriptor {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.accordion:not(:hover) {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/*ARROW*/
+
+.arrowimg:after {
+    content: '\2193';
+}
+
+.arrowselectionleft:before {
+    content: '\2190';
+    font-size: 34px;
+}
+
+.arrowselectionright:after {
+    content: '\2192';
+    font-size: 34px;
+}
+
+.leftarrownmargin {
+    padding-top: 13px;
+    margin-left: -40px;
+}
+
+.righttarrownmargin {
+    padding-top: 13px;
+    margin-left: -150px;
+}
+
+/*CAROUSEL*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+carousel-control-prev,
+carousel-control-next {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+    padding-top: 28px;
+}
+
+.carousel-control-prev-icon,
+carousel-control-prev {
+    padding-right: 100px;
+}
+
+.carousel-control-next-icon,
+carousel-control-next {
+    padding-left: 80px;
+}
+
+.carousel-control-next-icon:after {
+    content: '\2192';
+    font-size: 34px;
+    color: #FF86F3;
+}
+
+.carousel-control-prev-icon:after {
+    content: '\2190';
+    font-size: 34px;
+    color: #FF86F3;
+}
+
+
+/*HOME BUTTON*/
+
+.button {
+    background-color: #F9C8F4;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttontop {
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #E1F9BA;
+    text-decoration: none;
+}
+
+
+
+/*NAVBAR*/
+
+.logo {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+    padding-left: 30%;
+}
+
+.logo:hover {
+    color: #474747;
+    text-decoration: none;
+}
+
+.navbarheight {
+    height: 60px;
+}
+
+.navtoppadding {
+    padding-top: 18px;
+}
+
+
+/*ABOUT*/
+
+.abouttitletop {
+    padding-top: 150px;
+}
+
+.abouttitletop2 {
+    padding-top: 50px;
+}
+
+.aboutparatop {
+    padding-top: 60px;
+}
+
+.aboutparabottom {
+    padding-bottom: 60px;
+}
+
+.aboutinfotop {
+    padding-top: 20px;
+}
+
+.aboutinfobottom {
+    padding-bottom: 10px;
+}
+
+.aboutsmallspacing {
+    padding-bottom: 15px;
+}
+
+.subheadingbold {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.abouttitlebottom {
+    padding-bottom: 30px;
+}
+
+/*FONT TYPE*/
+
+h1 {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 400px;
+    /* line-height: 100px;*/
+    font-weight: 600;
+    color: black;
+}
+
+h2 {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 160px;
+    /* line-height: 100px;*/
+    font-weight: 600;
+    color: black;
+}
+
+h3 {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 400;
+    color: black;
+}
+
+h4 {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    color: black;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: black;
+}
+
+p {
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+    color: black;
+}
+
+
+/*FOOTER*/
+
+.footerright {
+    padding-right: 50px;
+}
+
+.footerleft {
+    padding-left: 50px;
+}
+
+.footerbottom {
+    padding-bottom: 30px;
+}
+
+.footerpaddingtotal {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.textdecoration:hover {
+    text-decoration: none;
+}
+
+/*PROJECT*/
+
+.projectdescriptiontop {
+    padding-top: 150px;
+}
+
+.projectdescriptionbottom {
+    padding-bottom: 300px;
+}
+
+.mainsection {
+    height: 1000px;
+}
+
+
+/*PROJECT IMAGE*/
+
+.imagepaddingtop {
+    padding-top: 100px;
+}
+
+.imagepaddingbottom {
+    padding-bottom: 150px;
+}
+
+.imagetexttop {
+    padding-top: 15px;
+    padding-left: 30px;
+    text-align: right;
+}
+
+.imgspacing {
+    padding-bottom: 30px;
+}
+
+
+/*VIDEO*/
+
+.videopadding {
+    padding-top: 200px;
+}
+
+video:focus {
+    outline: 0;
+}
+
+
+
+span.c {
+    display: block;
+}
+
+/*
+.year {
+    margin-left: 30px;
+    text-align: left;
+}
+*/
+
+.footnotespace {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/*///////////////START OF MOBILE///////////////////*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-device-width: 500px) {
+
+
+    .my-col-sm-4 {
+        /*width: 30%;*/
+        background-color: red;
+        height: 400px;
+    }
+
+    /*FONT TYPE*/
+
+    h1 {
+        font-family: 'Neue Haas Unica W1G', sans-serif;
+        font-size: 220px;
+        /* line-height: 100px;*/
+        font-weight: 600;
+        color: black;
+    }
+
+    h2 {
+        font-family: 'Neue Haas Unica W1G', sans-serif;
+        font-size: 50px;
+        /* line-height: 100px;*/
+        font-weight: 600;
+        color: black;
+    }
+
+    h3 {
+        font-family: 'Neue Haas Unica W1G', sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        color: black;
+    }
+
+    h4 {
+        font-family: 'Neue Haas Unica W1G', sans-serif;
+        color: black;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        color: black;
+    }
+
+    p {
+        font-family: 'Neue Haas Unica W1G', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin: 0;
+        color: black;
+    }
+
+    span.a {
+        display: block;
+    }
+
+    span.b {
+        display: block;
+    }
+
+    span.c {
+        display: inline;
+    }
+
+
+
+    /*NAV - Named footer as its the same*/
+
+    .footerright {
+        padding-right: 15px;
+    }
+
+    .footerleft {
+        padding-left: 15px;
+    }
+
+
+
+    /*Mobile Length*/
+
+    .homesize {
+        height: 240px;
+    }
+
+
+    /*HOME ANIMATION*/
+
+
+    .hometitlemargin {
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+
+    .hometitlemargin2 {
+        margin-top: -40px;
+    }
+
+
+    /*HOME LINE*/
+
+    hr {
+        margin-top: -1px;
+    }
+
+
+    /*HOME*/
+
+    .homepaddingmeltop {
+        padding-top: 20px;
+        /*margin-top: -50px;*/
+    }
+
+    .homepaddingmelbottom {
+        padding-bottom: 100px;
+    }
+
+
+
+    /*ABOUT*/
+
+    .abouttitletop {
+        padding-top: 50px;
+    }
+
+    .abouttitlebottom {
+        padding-bottom: 10px;
+    }
+
+    .abouttitleleft {
+        padding-left: 30px;
+    }
+
+    .aboutparatop {
+        padding-top: 30px;
+    }
+
+    .aboutparabottom {
+        padding-bottom: 40px;
+    }
+
+    .aboutparaleftmobile {
+        padding-left: 15px;
+    }
+
+    .aboutparabottominfo {
+        padding-bottom: 20px;
+    }
+
+
+    /*ACCORDION*/
+
+    .accordiontextpadding {
+        padding-top: 3px;
+    }
+
+    .accordionmarginmobile {
+        margin-top: -10px;
+    }
+
+    .accordiondescriptor {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+
+
+    /*PROJECT*/
+
+    .projectdescriptiontop {
+        padding-top: 0px;
+    }
+
+    .footnotespace {
+        padding-top: 0px;
+    }
+
+    .projectdescriptionbottom {
+        padding-bottom: 50px;
+    }
+
+    /*PROJECT IMAGE*/
+
+    .imagepaddingtop {
+        padding-top: 0px;
+    }
+
+    .imagepaddingbottom {
+        padding-bottom: 100px;
+    }
+
+    .mobileline {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .footerimgtype {
+        padding-bottom: 5px;
+    }
+
+    .imagetexttop {
+        padding-top: 5px;
+        padding-left: 30px;
+        text-align: right;
+    }
+
+    .abouttitletop2 {
+        padding-top: 0px;
+    }
+
+    .abouttitleleft {
+        padding-left: 20px;
+    }
+
+    .textalignright {
+        text-align: right;
+    }
+
+    .projectdescriptionbottom {
+        padding-bottom: 50px;
+    }
+
+    .imgspacing {
+        padding-bottom: 30px;
+    }
+
+
+    /*ARROW*/
+
+    .arrowselectionleft:before {
+        content: '\2190';
+        font-size: 16px;
+    }
+
+    .arrowselectionright:after {
+        content: '\2192';
+        font-size: 16px;
+    }
+
+    .leftarrownmargin {
+        padding-top: 13px;
+        margin-left: -40px;
+    }
+
+
+    /*FOOTER*/
+
+    .footerpaddingtotal {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footerpaddingtotal2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
